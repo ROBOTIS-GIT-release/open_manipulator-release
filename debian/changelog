@@ -1,0 +1,36 @@
+ros-kinetic-open-manipulator-position-ctrl (1.0.0-0jessie) jessie; urgency=high
+
+  * package reconfiguration for OpenManipulator
+  * added pick and place controller
+  * added private node handler, init_position arg, state machine, task, joint limit param
+  * added scaling factor for moving time and block making another path when robot moving
+  * modified publisher, velocity scaling factor
+  * modified serive to get pose data
+  * deleted boost lib, unused variables
+  * merged pull request #34 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/34> #33 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/33> #31 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/31> #27 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/27> #26 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/26> #25 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/25>
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+ros-kinetic-open-manipulator-position-ctrl (0.1.1-0jessie) jessie; urgency=high
+
+  * modified build setting for using yaml-cpp
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 14 Mar 2018 15:00:00 -0000
+
+ros-kinetic-open-manipulator-position-ctrl (0.1.0-0jessie) jessie; urgency=high
+
+  * modified control frequency
+  * modified joint control
+  * modified gripper topic
+  * modified moveit setting and gripper control
+  * modified gazebo sim
+  * modified messages and description
+  * refactoring for release
+  * modified cmake, package files for release
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 13 Mar 2018 15:00:00 -0000
+
+
