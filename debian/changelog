@@ -1,0 +1,32 @@
+ros-kinetic-open-manipulator-dynamixel-ctrl (1.0.0-0xenial) xenial; urgency=high
+
+  * package reconfiguration for OpenManipulator
+  * added function to support protocol 1.0
+  * modified motor id, msg names
+  * merged pull request #34 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/34> #33 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/33> #31 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/31> #27 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/27> #26 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/26> #25 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/25>
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+ros-kinetic-open-manipulator-dynamixel-ctrl (0.1.1-0xenial) xenial; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Wed, 14 Mar 2018 15:00:00 -0000
+
+ros-kinetic-open-manipulator-dynamixel-ctrl (0.1.0-0xenial) xenial; urgency=high
+
+  * added new dynamixel-workbench and velocity message
+  * added sync read failed debug code
+  * modified dxl-wb path
+  * modified dynamixel controller
+  * modified messages
+  * modified moveit
+  * modified description
+  * modified cmake, package files for release
+  * refactoring for release
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 13 Mar 2018 15:00:00 -0000
+
+
