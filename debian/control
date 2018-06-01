@@ -1,0 +1,12 @@
+Source: ros-kinetic-open-manipulator-dynamixel-ctrl
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-dynamixel-sdk, ros-kinetic-dynamixel-workbench-toolbox, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/open_manipulator_dynamixel_ctrl
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-open-manipulator-dynamixel-ctrl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dynamixel-sdk, ros-kinetic-dynamixel-workbench-toolbox, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: The Dynamixel controller package based on Dynamixel-Workbench for OpenManipulator.
