@@ -2,6 +2,18 @@
 Changelog for package open_manipulator_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2019-02-08)
+------------------
+* deleted model.launch
+* modified gripper origin
+* modified end_effector origin
+* modified link2 and joint2 position
+* updated inertia
+* changed calculated inertia param
+* changed gripper link name
+* changed axis for grip_joint
+* Contributors: Darby Lim, Hye-Jong KIM, Yong-Ho Na, Ryan Shim, Guilherme de Campos Affonso, Pyo
+
 1.0.0 (2018-06-01)
 ------------------
 * package reconfiguration for OpenManipulator
