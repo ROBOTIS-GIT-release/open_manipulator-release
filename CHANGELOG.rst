@@ -2,6 +2,14 @@
 Changelog for package open_manipulator_moveit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2019-02-08)
+------------------
+* added moveit config and controller
+* updated moveit rviz
+* Updated start_state after execution on Moveit `#83 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/83>`_
+* changed control period 40mm to 100mm
+* Contributors: Darby Lim, Yong-Ho Na, Hye-Jong KIM, Guilherme de Campos Affonso, Pyo
+
 1.0.0 (2018-06-01)
 ------------------
 * package reconfiguration for OpenManipulator
