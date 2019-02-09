@@ -1,0 +1,12 @@
+Source: ros-kinetic-open-manipulator-controller
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-moveit-core, ros-kinetic-moveit-msgs, ros-kinetic-moveit-ros-planning, ros-kinetic-moveit-ros-planning-interface, ros-kinetic-open-manipulator-libs, ros-kinetic-open-manipulator-msgs, ros-kinetic-robotis-manipulator, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-trajectory-msgs
+Homepage: http://wiki.ros.org/open_manipulator_controller
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-open-manipulator-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-moveit-core, ros-kinetic-moveit-msgs, ros-kinetic-moveit-ros-planning, ros-kinetic-moveit-ros-planning-interface, ros-kinetic-open-manipulator-libs, ros-kinetic-open-manipulator-msgs, ros-kinetic-robotis-manipulator, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-trajectory-msgs
+Description: OpenManipulator controller package
