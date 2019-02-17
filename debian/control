@@ -1,0 +1,12 @@
+Source: ros-melodic-open-manipulator-moveit
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-open-manipulator-description
+Homepage: http://wiki.ros.org/open_manipulator_moveit
+Standards-Version: 3.9.2
+
+Package: ros-melodic-open-manipulator-moveit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-joint-state-publisher, ros-melodic-moveit-fake-controller-manager, ros-melodic-moveit-kinematics, ros-melodic-moveit-planners-ompl, ros-melodic-moveit-ros-move-group, ros-melodic-moveit-ros-visualization, ros-melodic-moveit-setup-assistant, ros-melodic-open-manipulator-description, ros-melodic-robot-state-publisher, ros-melodic-xacro
+Description: An automatically generated package with all the configuration and launch files for using the open_manipulator with the MoveIt! Motion Planning Framework
