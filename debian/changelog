@@ -1,0 +1,46 @@
+ros-kinetic-open-manipulator-moveit (2.0.1-0xenial) xenial; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Sun, 17 Feb 2019 15:00:00 -0000
+
+ros-kinetic-open-manipulator-moveit (2.0.0-0xenial) xenial; urgency=high
+
+  * added moveit config and controller
+  * updated moveit rviz
+  * Updated start_state after execution on Moveit #83 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/83>
+  * changed control period 40mm to 100mm
+  * Contributors: Darby Lim, Yong-Ho Na, Hye-Jong KIM, Guilherme de Campos Affonso, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 07 Feb 2019 15:00:00 -0000
+
+ros-kinetic-open-manipulator-moveit (1.0.0-0xenial) xenial; urgency=high
+
+  * package reconfiguration for OpenManipulator
+  * added position only IK
+  * added compability with book
+  * deleted unused variables, 'chain' word
+  * merged pull request #34 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/34> #33 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/33> #32 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/32> #31 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/31> #27 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/27> #26 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/26> #25 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/25>
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+ros-kinetic-open-manipulator-moveit (0.1.1-0xenial) xenial; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Wed, 14 Mar 2018 15:00:00 -0000
+
+ros-kinetic-open-manipulator-moveit (0.1.0-0xenial) xenial; urgency=high
+
+  * modified moveit set and gripper control
+  * modified gazebo and moveit setting
+  * modified gazebo sim
+  * modified description
+  * modified cmake, packages files for release
+  * refactoring for release
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 13 Mar 2018 15:00:00 -0000
+
+
