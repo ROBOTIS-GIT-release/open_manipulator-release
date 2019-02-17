@@ -1,0 +1,12 @@
+Source: ros-melodic-open-manipulator-controller
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-geometry-msgs, ros-melodic-moveit-core, ros-melodic-moveit-msgs, ros-melodic-moveit-ros-planning, ros-melodic-moveit-ros-planning-interface, ros-melodic-open-manipulator-libs, ros-melodic-open-manipulator-msgs, ros-melodic-robotis-manipulator, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-trajectory-msgs
+Homepage: http://wiki.ros.org/open_manipulator_controller
+Standards-Version: 3.9.2
+
+Package: ros-melodic-open-manipulator-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-melodic-cmake-modules, ros-melodic-geometry-msgs, ros-melodic-moveit-core, ros-melodic-moveit-msgs, ros-melodic-moveit-ros-planning, ros-melodic-moveit-ros-planning-interface, ros-melodic-open-manipulator-libs, ros-melodic-open-manipulator-msgs, ros-melodic-robotis-manipulator, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-trajectory-msgs
+Description: OpenManipulator controller package
