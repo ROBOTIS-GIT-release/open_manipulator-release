@@ -1,0 +1,12 @@
+Source: ros-melodic-open-manipulator-description
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-joint-state-publisher, ros-melodic-robot-state-publisher, ros-melodic-urdf, ros-melodic-xacro
+Homepage: http://wiki.ros.org/open_manipulator_description
+Standards-Version: 3.9.2
+
+Package: ros-melodic-open-manipulator-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-joint-state-publisher, ros-melodic-robot-state-publisher, ros-melodic-urdf, ros-melodic-xacro
+Description: OpenManipulator 3D model description for visualization and simulation
