@@ -1,0 +1,12 @@
+Source: ros-melodic-open-manipulator-libs
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-dynamixel-workbench-toolbox, ros-melodic-robotis-manipulator, ros-melodic-roscpp
+Homepage: http://wiki.ros.org/open_manipulator_libs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-open-manipulator-libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-melodic-cmake-modules, ros-melodic-dynamixel-workbench-toolbox, ros-melodic-robotis-manipulator, ros-melodic-roscpp
+Description: OpenManipulator library (Kinematics lib., Dynamixel lib., Drawing path lib.)
