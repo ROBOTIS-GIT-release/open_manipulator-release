@@ -1,0 +1,57 @@
+ros-melodic-open-manipulator-description (2.0.1-0stretch) stretch; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Sun, 17 Feb 2019 15:00:00 -0000
+
+ros-melodic-open-manipulator-description (2.0.0-0stretch) stretch; urgency=high
+
+  * deleted model.launch
+  * modified gripper origin
+  * modified end_effector origin
+  * modified link2 and joint2 position
+  * updated inertia
+  * changed calculated inertia param
+  * changed gripper link name
+  * changed axis for grip_joint
+  * Contributors: Darby Lim, Hye-Jong KIM, Yong-Ho Na, Ryan Shim, Guilherme de Campos Affonso, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 07 Feb 2019 15:00:00 -0000
+
+ros-melodic-open-manipulator-description (1.0.0-0stretch) stretch; urgency=high
+
+  * package reconfiguration for OpenManipulator
+  * added new stl files
+  * added urdf, rviz param, gazebo params, group
+  * modified color, xacro server, mu1, mu2, collision range, joint limit
+  * modified joint_state_publisher, joint_states_publisher
+  * modified params of inertial, xacro, gazebo, collision, friction
+  * modified urdf file names and collision geometry
+  * deleted unnecessary packages
+  * merged pull request #34 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/34> #33 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/33> #31 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/31> #27 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/27> #26 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/26> #25 <https://github.com/ROBOTIS-GIT/open_manipulator/issues/25>
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+ros-melodic-open-manipulator-description (0.1.1-0stretch) stretch; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Wed, 14 Mar 2018 15:00:00 -0000
+
+ros-melodic-open-manipulator-description (0.1.0-0stretch) stretch; urgency=high
+
+  * modified joint control
+  * modified gripper topic
+  * modified gazebo set
+  * modified URDF
+  * modified description
+  * modified messages
+  * modified moveit
+  * modified cmake, package files for release
+  * refactoring for release
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 13 Mar 2018 15:00:00 -0000
+
+
