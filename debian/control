@@ -1,0 +1,13 @@
+Source: ros-melodic-open-manipulator
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/open_manipulator
+Standards-Version: 3.9.2
+
+Package: ros-melodic-open-manipulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-open-manipulator-control-gui, ros-melodic-open-manipulator-controller, ros-melodic-open-manipulator-description, ros-melodic-open-manipulator-libs, ros-melodic-open-manipulator-moveit, ros-melodic-open-manipulator-teleop
+Description: ROS-enabled OpenManipulator is a full open robot platform consisting of OpenSoftware​, OpenHardware and OpenCR(Embedded board)​.
+ The OpenManipulator is allowed users to control it more easily by linking with the MoveIt! package. Moreover it has full hardware compatibility with TurtleBot3​. Even if you do not have a real robot, you can control the robot in the Gazebo simulator​.
