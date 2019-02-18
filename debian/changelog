@@ -1,0 +1,16 @@
+ros-melodic-open-manipulator-teleop (2.0.1-0stretch) stretch; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Sun, 17 Feb 2019 15:00:00 -0000
+
+ros-melodic-open-manipulator-teleop (2.0.0-0stretch) stretch; urgency=high
+
+  * added new package for teleoperation
+  * added teleop launch
+  * updated the CHANGELOG and version to release binary packages
+  * Contributors: Darby Lim, Hye-Jong KIM, Yong-Ho Na, Guilherme de Campos Affonso, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 07 Feb 2019 15:00:00 -0000
+
+
